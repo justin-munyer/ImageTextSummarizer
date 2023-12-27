@@ -5,7 +5,13 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SummarizerLib", "SummarizerLib\SummarizerLib.csproj", "{6FE0A4CC-474E-4F65-BD9B-52FE0F9BD381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummarizerLibTests", "SummarizerLibTests\SummarizerLibTests.csproj", "{C8929AF0-3CF3-4576-97BC-7F2D9230CBE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SummarizerLibTests", "SummarizerLibTests\SummarizerLibTests.csproj", "{C8929AF0-3CF3-4576-97BC-7F2D9230CBE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "ImageTextRetrieval\UI.csproj", "{F3DDBFA5-6CD0-4520-948F-FE4412220FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTextRetrievalOCR", "ImageTextRetrievalOCR\ImageTextRetrievalOCR.csproj", "{B973B0EC-2852-4B6E-B548-403399593B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTextRetrievalOCRTests", "ImageTextRetrievalOCRTests\ImageTextRetrievalOCRTests.csproj", "{18DFA32D-857D-4EB6-A778-7A1FAC33D6BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,20 @@ Global
 		{C8929AF0-3CF3-4576-97BC-7F2D9230CBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8929AF0-3CF3-4576-97BC-7F2D9230CBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8929AF0-3CF3-4576-97BC-7F2D9230CBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DDBFA5-6CD0-4520-948F-FE4412220FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DDBFA5-6CD0-4520-948F-FE4412220FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DDBFA5-6CD0-4520-948F-FE4412220FBF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F3DDBFA5-6CD0-4520-948F-FE4412220FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DDBFA5-6CD0-4520-948F-FE4412220FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DDBFA5-6CD0-4520-948F-FE4412220FBF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B973B0EC-2852-4B6E-B548-403399593B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B973B0EC-2852-4B6E-B548-403399593B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B973B0EC-2852-4B6E-B548-403399593B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B973B0EC-2852-4B6E-B548-403399593B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DFA32D-857D-4EB6-A778-7A1FAC33D6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DFA32D-857D-4EB6-A778-7A1FAC33D6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DFA32D-857D-4EB6-A778-7A1FAC33D6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DFA32D-857D-4EB6-A778-7A1FAC33D6BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

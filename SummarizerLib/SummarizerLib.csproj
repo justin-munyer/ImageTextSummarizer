@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.PDF.OCR.NET" Version="24.1.41" />
+  </ItemGroup>
+
 </Project>
