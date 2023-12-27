@@ -8,8 +8,7 @@ namespace ImageTextRetrievalOCRTests
         [Fact]
         public void OCR_WhenCalled_RetrievesSuccessfulResult()
         {
-            //string imagePath = "phototest.tif";
-            string imagePath = "rdi.jpg";
+            string imagePath = "phototest.tif";
 
             var imageTextRetreiver = new ImageTextRetriever();
 
